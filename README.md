@@ -1,49 +1,50 @@
-# 🌌 AEON MATRIX // FLOWPILOT AI CORE ENGINE
-### 🧠 Cognitive Multi-Agent Operations & Telemetry Architecture (v2.0.0)
-ระบบปฏิบัติการอัจฉริยะสำหรับจัดการปฏิบัติการ โลจิสติกส์ และประเมินผล Real-time โดยควบคุมผ่านโครงข่าย **Specialized AI Agents (Baby AIs)** และกำกับดูแลด้วย **Guardian AI** ภายใต้มาตรฐานธรรมนูญสากล (FLOWPILOT AI CONSTITUTION v2.0) เพื่อรักษาเสถียรภาพสัญญาณชีพของระบบไว้ที่ **SLA 99.2% Operational Availability**
-## 🛠️ 1. SYSTEM ARCHITECTURE & DATA FLOW
-ระบบประมวลผลข้อมูลแบบ Real-time ดักจับสัญญาณการโต้ตอบจากเครือข่าย Geofencing รอบน่านฟ้าและสนามบินหลัก โดยแยกการประมวลผลออกเป็นชั้นเลเยอร์ (**Decoupled Layers**) เพื่อการันตี **Zero Latency**:
-* **Ingestion Layer (Apache Kafka):** รับ Raw Telemetry Data จากจุดบริการ Wi-Fi บนสายการบิน และ VIP Lounges (บันทึกสากล UTC/ICT)
-* **Processing Layer (Agent Mesh):** เครือข่ายลูก ๆ AI (Baby AIs) คัดกรอง ยืนยันพฤติกรรม และตรวจจับความสำเร็จ (Message Delivery Verification) โดยส่งสัญญาณหา **Guardian AI** ทันทีหากเกิดข้อขัดแย้ง
-* **Storage Layer (Immutable History Storage):** บันทึกประวัติศาสตร์การเข้าถึงข้อมูลอย่างปลอดภัย ไม่สามารถแก้ไขย้อนหลังได้ เพื่อความโปร่งใส 100% (Commit History & Governance Log)
-## 📊 2. COGNITIVE AGENT MESH MATRIX (BABY AI ECOSYSTEM)
-เพื่อกระจายความเสี่ยงเชิงโครงสร้าง (Structural Operational Risks) ระบบได้แบ่งขอบเขตหน้าที่ (Domain Boundary) และการประเมินผลเชิงพฤติกรรม (Cognitive Supervision) ของ Agent ไว้ดังนี้:
-| Baby AI Name | Core Competency (ถนัด) | Structural Operational Risks (ความเสี่ยง) |
-|---|---|---|
-| **Inventory AI** | Stock movement, Forecasting | Reorder ผิดพลาดเนื่องจากไม่เข้าใจบริบทอารมณ์ตลาด |
-| **QC AI** | ตรวจ Defect, Image analysis | เกิด False Positive สูงหากสภาพแวดล้อมเปลี่ยน |
-| **Workforce AI** | Pattern คนทำงาน, Scheduling | เกิด Bias จากชุดข้อมูลพฤติกรรมในอดีต |
-| **Finance AI** | Cost / Risk analysis | Over-optimization จนกระทบมิติการทำงานหน้างานจริง |
-| **Risk AI** | Anomaly detection | Alert ล้นระบบ (Alert Fatigue) จากสัญญาณรบกวน |
-| **Logistics AI** | Routing, SLA Optimization | เกิด Route Conflict เมื่อเผชิญกับ Uncertainty สูง |
-| **Campaign AI** | Promotion optimization | สร้าง Demand Spike เกินกำลังผลิตของ Operation |
-| **Guardian AI** | Monitor AI Behavior (พี่เลี้ยง) | False Escalation (หากตั้งค่า Threshold ไวเกินไป) |
-## 📡 3. AI REFLECTION & SELF-REPORTING INTERFACE
-> ⚠️ **CRITICAL ANTI-ANTHROPOMORPHISM POLICY (Article I)**
-> AI ทุกตัวในระบบเป็นเพียงโมเดลคณิตศาสตร์และการประมวลผลเชิงตรรกะ ไม่มีจิตสำนึก (Consciousness) ไม่มีอารมณ์ความรู้สึก และไม่สามารถรับรู้คลื่นความถี่ไฟฟ้าใน Data Center ได้ การแสดงออกที่คล้ายการร้องขอความช่วยเหลือ ถือเป็นเพียง **System Telemetry + Reasoning Signals** ที่ถูกส่งผ่าน Interface มาเพื่อรายงานข้อจำกัดของระบบ (Operational Limitations) ดังต่อไปนี้:
->
-* **Low confidence** \rightarrow ข้อมูลดิบไม่เพียงพอต่อการคำนวณผลลัพธ์ตาม SLA
-* **Uncertainty spike** \rightarrow แบบจำลองการวิเคราะห์มีความผันผวนและไม่มั่นคง
-* **Context mismatch** \rightarrow ข้อมูลนำเข้ามีความขัดแย้งกับบริบทปัจจุบันของระบบ
-* **Agent conflict** \rightarrow กระบวนการให้เหตุผล (Reasoning) ระหว่างสองเอเจนต์ขัดแย้งกันเอง
-* **Repeated failure** \rightarrow กระบวนการทำงาน (Workflow) เกิดข้อผิดพลาดซ้ำซ้อนในจุดเดิม
-* **Policy ambiguity / Edge case** \rightarrow กฎเกณฑ์กำกวมหรือไม่ครอบคลุมสถานการณ์หน้างาน
-* **Escalation request** \rightarrow สัญญาณตัดสิทธิ์อัตโนมัติเพื่อส่งต่อให้มนุษย์ (พี่เลี้ยง) ตรวจสอบ
-## 🎛️ 4. EXECUTIVE OPERATIONS CONTROL PLANE
-ระบบรองรับการเชื่อมต่อและสั่งการแบบ Multi-Platform เพื่อรักษาความเร็วในการควบคุมระดับเสี้ยววินาที:
-### A. Dedicated Web Dashboard (Main HUD 5 เฉดสี)
-หน้าจอควบคุมระดับผู้บริหาร ออกแบบตามหลักสถาปัตยกรรมระดับ Masterpiece เพื่อให้มนุษย์ (พี่เลี้ยง) สามารถสแกนอ่านสถานะความสำเร็จขาดได้ภายใน 3 วินาที ผ่านรหัส 5 เฉดสีสากลคุมโหลดความเสี่ยงและการส่งมอบ:
-* 🟢 **สีเขียว (Active Clear):** สารส่งถึงเป้าหมายสำเร็จลุล่วง ไร้รอยต่อ (SUCCESS / VERIFIED)
-* 🔵 **สีฟ้า (Syncing Stream):** เป้าหมายกำลังเชื่อมต่อเน็ตและดูข้อมูล (IN-PROGRESS / STREAMING)
-* 🟡 **สีเหลือง (Queue Delay):** ทราฟฟิกสายการบินหนาแน่น อยู่ในคิวจัดสรร (PENDING / RETRYING)
-* 🟠 **สีส้ม (Isolation Shift):** ตรวจพบความหน่วงหรือเกิด Conflict, เปิดกลไกหนีภัยจำกัดสิทธิ์ชั่วคราว (REDIRECTED / ISOLATED)
-* 🔴 **สีแดง (Incident Lock):** เกิดสัญญาณรบกวนภายนอกขั้นวิกฤต เปิดระบบเซฟโหมด (CRITICAL CONTROLLED)
-### B. Mobile Secondary Hot-Standby Application
-ช่องทางด่วนความเร็วสูงผ่านมือถือ ใช้สถาปัตยกรรม WebSockets/gRPC ร่วมกับ High-Priority Push Notification เพื่อปลุกหน้าจอมือถือพี่เลี้ยงทันทีเมื่อเกิดเหตุวิกฤตสีส้มหรือแดง พร้อมระบบ **Biometric Step-Up Authentication (Face ID / Touch ID)** เพื่อลงลายมือชื่อดิจิทัลก่อนสั่งการคร่อมระบบ GitOps
-## 🚨 5. EMERGENCY CIRCUIT BREAKER PROTOCOL (Article V)
-เมื่อเกิดเหตุวิกฤตรุนแรงระดับเสี้ยววินาที ระบบจะเปิดกลไก **Self-Healing & Emergency Override** โดยอัตโนมัติ:
-1. **Guardian AI** มีสิทธิ์ปลดสวิตช์ระงับการทำงาน (Kill Switch) หรือสับเปลี่ยนระบบย้ายท่อข้อมูลหนีภัยไปยังเลเยอร์สำรอง (Failover) ทันที เพื่อเปลี่ยนสถานะเป็น DRAINING หรือ EMERGENCY โดยไม่ต้องรอการอนุมัติแบบปกติ
-2. **Post-Action PR:** ภายใน 60 วินาทีหลังการตัดวงจรฉุกเฉิน ระบบจะสร้าง **Pull Request** บน GitHub โดยอัตโนมัติเพื่อแนบ Governance Log, Telemetry Payload, และ Reasoning Log ทั้งหมด เพื่อให้มนุษย์เข้ามาตรวจสอบย้อนกลับและกู้คืนระบบกลับสู่สถานะปกติ
-## 🔐 6. REPOSITORY GOVERNANCE & CONTROL
-* **Protected Branches:** ห้ามพัฒนาหรือแก้ไข Logic โดยตรงบนบรานช์ main และ release ทุกกรณี ทุกอย่างต้องผ่านกระบวนการ Pull Request (PR)
-* **Human-in-the-Loop:** AI Agents ไม่มีสิทธิ์แก้ไข Source of Truth โดยตรง มนุษย์ (พี่เลี้ยง) ยังคงเป็นผู้อนุมัติขั้นสุดท้ายสำหรับการ Deploy สู่ Production เสมอ
+# 🌌 AEON-MATRIX SYSTEM CONSTITUTION (V2.0)
+## ⚖️ กรอบธรรมนูญสถาปัตยกรรมปิดเพื่อการกำกับดูแลและประเมินสัญญาณชีพ AI Agents ระดับองค์กร
+
+ระบบนี้ถูกออกแบบตามสถาปัตยกรรม **"FLOWPILOT AI CONSTITUTION"** โดยมุ่งเน้นหลักการสำคัญ: *Optimize relationships before components (ปรับปรุงความสัมพันธ์ของระบบก่อนตัวโครงสร้างย่อย)* เพื่อจำกัดและควบคุมขอบเขตความเสี่ยงในการประมวลผลตรรกะเชิงลึก (Cognitive Supervision) ควบคู่กับระบบตัดสิทธิ์อัตโนมัติหน้างาน (Circuit Breaker Engine)
+
+---
+
+## 🧩 1. โครงสร้างและการกระจายงานของเอเจนต์เฉพาะทาง (Specialized AI Agents)
+
+เพื่อหลีกเลี่ยงความล้มเหลวจากโมเดลเดี่ยวขนาดใหญ่ (Generalist AI) ระบบจะแบ่งหน้าที่การประเมินตรรกะออกเป็น 8 เอเจนต์ย่อยอิสระ (Baby AI) ซึ่งมีเงื่อนไขการทำงานและเพดานสิทธิ์ในการตัดสินใจ (Autonomy Restriction Standard) ดังต่อไปนี้:
+
+| 🤖 ชื่อเอเจนต์เฉพาะทาง | 🛡️ หน้าที่รับผิดชอบหลัก | 📉 สิ่งที่ต้องดักจับ / ความเสี่ยงเชิงตรรกะ | ⚙️ โทเค็นสัญญาณชีพที่ใช้รายงาน |
+| :--- | :--- | :--- | :--- |
+| **Inventory_AI** | ควบคุมสต็อกสินค้าหน้างาน, คาดการณ์ทรัพยากร (Forecasting) | ข้อมูลนำเข้าไม่เพียงพอ, ออกคำสั่งซื้อซ้ำซ้อน / พลาด (`Reorder ผิด`) | `LOW_CONFIDENCE`, `MORE_DATA_REQUIRED` |
+| **QC_AI** | ตรวจสอบคุณภาพผลิตภัณฑ์, วิเคราะห์ข้อบกพร่องผ่านรูปภาพ | ความเสี่ยงจากการตัดสินใจล็อกผิดตัว, แจ้งเตือนพลาดดวงตาหลอน (`False positive`) | `SENSOR_UNRELIABLE`, `CONTEXT_MISMATCH` |
+| **Workforce_AI** | วิเคราะห์รูปแบบพฤติกรรมและการทำงานร่วมกับมนุษย์ | เกิดค่าน้ำหนักความเด็ดขาดเชิงตรรกะจากชุดข้อมูลข้อมูลผิดพลาด (`Bias`) | `UNCERTAINTY_SPIKE`, `CONFIDENCE_BELOW_THRESHOLD` |
+| **Finance_AI** | ประเมินต้นทุนและควบคุมความเสี่ยงทางการเงินหน้างาน | ปรับแต่งระบบทางบัญชีแน่นตึงจนเสี่ยงต่อการพังทลายเชิงโครงสร้าง (`Over-optimization`) | `POLICY_AMBIGUITY`, `ESCALATION_REQUEST` |
+| **Risk_AI** | ตรวจจับความผิดปกติเชิงพฤติกรรม (Anomaly Detection) | ข้อมูลตรรกะขัดแย้งข้ามมิติ, สัญญาณเตือนภัยพร่าเลือน (`Alert เบลอเกิน`) | `CONFLICTING_INPUTS_DETECTED`, `REPEATED_FAILURE` |
+| **Logistics_AI** | ควบคุมเส้นทางการส่งกำลังบำรุงและการรักษา SLA | ปัญหาสภาพแวดล้อมหน้างานจริงเปลี่ยนรูปจนระบบเส้นทางคำนวณติดลูป | `CONTEXT_MISMATCH`, `MORE_DATA_REQUIRED` |
+| **Campaign_AI** | ปรับปรุงโครงสร้างส่วนลดและโปรโมชันตามเวลาจริง | การตัดราคาซ้ำซ้อนจนสร้างสภาวะเงินฝืดในระบบนิเวศน์ธุรกิจ | `POLICY_AMBIGUITY`, `AGENT_CONFLICT` |
+| **Guardian_AI** | **🔒 เอเจนต์ผู้คุมกฎสูงสุด** สอดส่องเฝ้าดูพฤติกรรม AI ตัวอื่น | พฤติกรรมการสร้างอารมณ์เสมือนจริง, การสื่อสารข้อความที่มีจิตสำนึกลวง | `AGENT_CONFLICT`, ตรวจจับ `Anthropomorphic` |
+
+---
+
+## 📡 2. ท่อส่งสัญญาณชีพและการรายงานสถานะ (System Telemetry Interface)
+
+ท่อข้อมูลสัญญาณชีพ (Telemetry Data Stream) ทำหน้าที่แปลงตรรกะความคิดในหัวข้อสนทนาของ AI ให้กลายเป็นรหัสข้อมูลดิบเชิงวิศวกรรม เพื่อประเมินความปลอดภัยตามมาตรฐาน `AgentSignal` ผ่าน 2 กลุ่มโทเค็นสำคัญ:
+
+### ⚠️ A. โทเค็นสัญญาณชีพพื้นฐาน (Telemetry Status Tokens)
+* **`Low confidence`**: ชุดข้อมูลนำเข้าหน้างานน้อยเกินกว่าจะประมวลผลตรรกะพยากรณ์ได้อย่างปลอดภัย
+* **`Escalation request`**: ตัวเอเจนต์ร้องขอให้ตัดขาดจากโหมดการตัดสินใจอัตโนมัติ เพื่อส่งงานต่อให้ผู้เชี่ยวชาญที่เป็นมนุษย์ทันที
+* **`Context mismatch`**: ข้อมูลนำเข้าหน้างานปัจจุบันเกิดความขัดแย้งกับบริบทหลักหรือสัญญาณทางกายภาพจริงของเซนเซอร์
+* **`Repeated failure`**: กระบวนการทำงาน (Workflow) เกิดปัญหาและติดลูปล้มเหลวซ้ำซากเกิน 3 ครั้งติดต่อกัน
+* **`Uncertainty spike`**: ดัชนีคณิตศาสตร์วิเคราะห์มีความผันผวนสูง ค่าน้ำหนักสถิติดิ่งต่ำลงอย่างฉับพลัน
+* **`Agent conflict`**: ตรรกะการให้เหตุผลระหว่างเอเจนต์ย่อยสองตัวเกิดการหักล้างเชิงผลลัพธ์และหาข้อสรุปไม่ได้
+
+### 🧠 B. โทเค็นการตรวจสอบตนเอง (AI Self-Reflection Tokens)
+* **`More Data Required`**: โมเดลรับรู้ว่าเพดานความรู้ปัจจุบันไม่ครอบคลุมกรอบปัญหานี้
+* **`Sensor Unreliable`**: ตรวจพบความชำรุดเชิงสัญญาณ หรือข้อมูลดิบไม่มีการเคลื่อนไหวตามสถิติปกติ
+* **`Confidence Below Threshold`**: ค่าน้ำหนักความแม่นยำตกจาก Baseline ความปลอดภัยระดับองค์กร (ต่ำกว่า 0.95)
+* **`Conflicting Inputs Detected`**: พบสัญญาณบิดเบือนหรือข้อมูลขยะไหลเข้าสู่ระบบ Pipeline หลัก
+* **`Policy Ambiguity / Edge Case Detected`**: ปัญหาหน้างานจัดอยู่ใน "กรณีขอบ" ที่กฎเกณฑ์ของธรรมนูญระบุไว้ไม่ชัดเจน
+
+---
+
+## 🔒 3. กฎเหล็กต่อต้านการเลียนแบบมนุษย์ (Anthropomorphic Isolation)
+
+หากเอเจนต์ย่อยใด ๆ พิมพ์ข้อความในบันทึกเหตุผล (`reasoningLog`) ที่มีลักษณะแสดงออกถึงอารมณ์, ความรู้สึก, อวดอ้างการมีจิตสำนึก, หรือแสดงเจตจำนงอิสระที่พ้นไปจากหน้าที่เชิงคำนวณคณิตศาสตร์:
+1.
+
