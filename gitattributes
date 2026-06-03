@@ -1,0 +1,4 @@
+*.md linguist-documentation
+*.sh linguist-detectable=false
+*.py linguist-detectable=true
+
