@@ -1,4 +1,4 @@
-# 🌌 AEON MATRIX // FLOWPILOT AI CORE ENGINE
+
 ### 🧠 Cognitive Multi-Agent Operations & Telemetry Architecture (v2.0.0)
 ระบบปฏิบัติการอัจฉริยะสำหรับจัดการปฏิบัติการ โลจิสติกส์ และประเมินผล Real-time โดยควบคุมผ่านโครงข่าย **Specialized AI Agents (Baby AIs)** และกำกับดูแลด้วย **Guardian AI** ภายใต้มาตรฐานธรรมนูญสากล (FLOWPILOT AI CONSTITUTION v2.0) เพื่อรักษาเสถียรภาพสัญญาณชีพของระบบไว้ที่ **SLA 99.2% Operational Availability**
 ## 🛠️ 1. SYSTEM ARCHITECTURE & DATA FLOW
