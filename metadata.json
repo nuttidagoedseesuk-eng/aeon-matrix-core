@@ -1,0 +1,8 @@
+{
+  "name": "Aeon Matrix Core",
+  "description": "AEON-MATRIX Cognitive Operations Ecosystem & Supervision Engine for Enterprise AI Agents",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

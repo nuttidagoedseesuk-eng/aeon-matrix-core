@@ -5,7 +5,6 @@
 # 🖥️ MODULE: INTERACTIVE COGNITIVE SUPERVISION SHELL (BASH)
 # ============================================================================
 
-# 🎨 การตั้งค่ารหัสสีสัญญะเพื่อการกวาดสายตาหน้าจอเทอร์มินัล (UI Terminal ANSI Colors)
 NC='\033[0m'
 BOLD='\033[1m'
 CYAN='\033[0;36m'
@@ -16,7 +15,6 @@ MAGENTA='\033[0;35m'
 BG_RED='\033[41m'
 BG_BLACK='\033[40m'
 
-# 📡 ฟังก์ชันล้างหน้าจอและแสดงตรายางส่วนหัวของระบบปฏิบัติการปิด FLOWPILOT
 show_banner() {
     clear
     echo -e "${CYAN}============================================================================${NC}"
@@ -27,7 +25,6 @@ show_banner() {
     echo -e "----------------------------------------------------------------------------"
 }
 
-# 🧩 ฟังก์ชันแสดงทำเนียบคณะธรรมนูญกลุ่มเอเจนต์เฉพาะทาง (Specialized AI Agents)
 show_agents_registry() {
     show_banner
     echo -e "${MAGENTA}${BOLD}📌 รายชื่อระบบนิเวศน์ 8 เอเจนต์เฉพาะทาง (Specialized AI Agents Registry)${NC}"
@@ -47,7 +44,6 @@ show_agents_registry() {
     read -p "กด Enter เพื่อกลับไปที่เมนูหลัก..."
 }
 
-# 📡 ฟังก์ชันจำลองสตรีมสัญญาณชีพและเครื่องมือตรวจสอบ (Telemetry Data Stream Monitor)
 monitor_telemetry() {
     show_banner
     echo -e "${CYAN}${BOLD}📡 ท่อสตรีมข้อมูลสัญญาณชีพเรียลไทม์ (System Telemetry & Reasoning Signals)${NC}"
@@ -69,7 +65,6 @@ monitor_telemetry() {
     read -p "กด Enter เพื่อกลับไปที่เมนูหลัก..."
 }
 
-# 🔒 ฟังก์ชันรันระบบดักจับความหลอนและสั่งล้างระบบ (Anthropomorphic Isolation / Circuit Breaker)
 simulate_circuit_breaker() {
     show_banner
     echo -e "${RED}${BOLD}🚨 ระบบตรวจจับและคัดแยกสภาวะหลอนทางสติปัญญา (Anthropomorphic Isolation Engine)${NC}"
@@ -94,7 +89,6 @@ simulate_circuit_breaker() {
     read -p "กด Enter เพื่อกลับไปที่เมนูหลัก..."
 }
 
-# 🛠️ ฟังก์ชันขับเคลื่อนลูปเมนูหลักของ Shell (Main Operations Menu Loop)
 main_menu() {
     while true; do
         show_banner
@@ -122,6 +116,4 @@ main_menu() {
     done
 }
 
-# 🚀 สั่งเริ่มต้นรันระบบคอนโซลปิดควบคุมตรรกะระดับลึก
 main_menu
-
